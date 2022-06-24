@@ -5,10 +5,7 @@
 
 .front-page-video {
     position: $posrelative;
-    top: 0;
-    left: 0;
     width: $MaxWidth;
-    margin-bottom: 0;
     overflow: hidden;
 }
 
@@ -28,9 +25,8 @@
   width: $MaxWidth;
   text-align: center;
   height: $maxHeight;
-  // position: relative;
   padding: 0px 40px;
-  top:600px;
+  top:500px;
 }
 
 
@@ -51,7 +47,6 @@ opacity: 1;
 text-align: left;
 font: normal normal normal 20px/25px DAZN Oscine XBold;
 color: $whiteText;
-opacity: 1;
 }
 
 @media screen and (min-width: 480px) {
