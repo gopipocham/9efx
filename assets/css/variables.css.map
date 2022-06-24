@@ -5,7 +5,7 @@
 		"../../scss/variables.scss"
 	],
 	"sourcesContent": [
-		"$MaxWidth: 100%;\n$maxHeight: 100%;\n$posrelative: relative;\n$posFixed: fixed;\n"
+		"$MaxWidth: 100%;\n$maxHeight: 100%;\n$posrelative: relative;\n$posFixed: fixed;\n$posAbsolute: absolute;\n"
 	],
 	"names": [],
 	"mappings": ""

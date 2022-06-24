@@ -4,7 +4,7 @@
 
 
 .front-page-video {
-    position: $posFixed;
+    position: $posrelative;
     top: 0;
     left: 0;
     width: $MaxWidth;
@@ -23,12 +23,12 @@
 }
 
 .homepage-hero {
-  position: $posrelative;
+  position: $posAbsolute;
   align-items: center;
   width: $MaxWidth;
   text-align: center;
   height: $maxHeight;
-  position: relative;
+  // position: relative;
   padding: 0px 40px;
   top:600px;
 }
