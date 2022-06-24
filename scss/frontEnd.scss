@@ -1,0 +1,80 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "variables.scss";
+@import "colors.scss";
+
+
+.front-page-video {
+    position: $posFixed;
+    top: 0;
+    left: 0;
+    width: $MaxWidth;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.global-navbar {
+    position: $posFixed;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+    width: $MaxWidth;
+    background-color: transparent;
+    transition: background-color .4s ease-out;
+}
+
+.homepage-hero {
+  position: $posrelative;
+  align-items: center;
+  width: $MaxWidth;
+  text-align: center;
+  height: $maxHeight;
+  position: relative;
+  padding: 0px 40px;
+  top:600px;
+}
+
+
+
+.home .main {
+  position: $posrelative;
+  height: 100%;
+}
+
+.h2-class{
+text-align: left;
+font: normal normal normal 43px/52px DAZN Oscine XBold;
+color: $YellowText;
+opacity: 1;
+}
+
+.h3-class{
+text-align: left;
+font: normal normal normal 20px/25px DAZN Oscine XBold;
+color: $whiteText;
+opacity: 1;
+}
+
+@media screen and (min-width: 480px) {
+  .hide-mobile-watch-cta {
+    display: none;
+  }
+}
+
+.watch-cta {
+  width: 321px;
+  height: 42px;
+  background: $YellowText 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  margin-top: 15px;
+}
+
+.watch-text {
+  text-align: center;
+    font: normal normal normal 20px/20px DAZN Oscine;
+    color: $blackText
+}
+
+.home a {
+  color: $YellowText !important;;
+}

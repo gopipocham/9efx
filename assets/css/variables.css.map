@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "variables.css",
+	"sources": [
+		"../../scss/variables.scss"
+	],
+	"sourcesContent": [
+		"$MaxWidth: 100%;\n$maxHeight: 100%;\n$posrelative: relative;\n$posFixed: fixed;\n"
+	],
+	"names": [],
+	"mappings": ""
+}
